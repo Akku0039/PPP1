@@ -1,0 +1,89 @@
+body {
+    background-color: #262626;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #filter-section, #add-user-section, #user-list {
+    margin-bottom: 20px;
+  }
+  
+  #filter-section select, #add-user-section select, #add-user-section input[type="text"], #add-user-section input[type="number"] {
+    margin-bottom: 10px;
+  }
+  
+  #filter-btn, #add-btn {
+    padding: 5px 10px;
+  }
+  
+  #users {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-card {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  h3{
+    color: #fff;
+  }
+  #filter-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #262626;
+    
+    background-color:rgba(255, 255, 255, 0.97)  ;
+  }
+  #profession {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.981);
+    background-color: #262626 ;
+
+  }
+  input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.94);
+    background-color: #262626 ;
+  }
+  #add-user-btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #262626;
+    
+    background-color:rgba(255, 255, 255, 0.97)  ;
+  }
+  #user-list{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #262626;
+    
+    background-color:rgba(255, 255, 255, 0.97)  ;
+
+  }
+  
+
+  

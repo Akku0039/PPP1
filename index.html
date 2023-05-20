@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akansha Mishra </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Filter UI cards via their profession</h3>
+    <select id="profession">
+        <option value=""> Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+      </select>
+     
+      
+      <div>
+        <br>
+        <button id="filter-btn">Filter</button>
+      <div>
+        <h3 id="add">Add a new User </h3>
+      </div>
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="ee" placeholder="Enter Profession">
+        <input type="text" id="age" placeholder="Age">
+        <select id="profession">
+          <option value=""> Profession</option>
+          <option value="developer">Developer</option>
+          <option value="admin">Admin</option>
+        </select>
+       
+      </div>
+      <br>
+      <button id="add-user-btn">Add User</button>
+  
+      <div id="user-list">
+        <!-- User cards will be appended here -->
+        <ul id="users"></ul>
+      </div>
+
+  
+    <div id="user-list">
+    
+      <ul id="users"></ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
